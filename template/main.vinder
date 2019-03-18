@@ -1,0 +1,23 @@
+<!inc@block.head!>
+
+<!**This is comment thats not will be compiled**!>
+<!**Multiline comment
+thats not will be
+compiled**!>
+<!*This is comment thats will be compiled*!>
+<!*Multiline comment
+thats will be
+compiled*!>
+<!$testString!>
+<!$testArray.data!>
+<!$testArray.test.data!>
+<!$i!>
+<!$testArray.$i.$i!>
+<!$testArray.class->item!>
+<!$testArray.class->method()!>
+<!$testArray.class->method('228')!>
+<!$testArray.class->method($i)!>
+<!$testArray.class->methodReturningClass()->item!>
+
+<!inc@php_test!>
+<!inc@block.footer!>

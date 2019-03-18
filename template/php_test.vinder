@@ -1,0 +1,27 @@
+<?php
+	$test = [
+		"data" => "Lolz!",
+"test1",
+"test2",
+"test3",
+"test4",
+"test5",
+"test6",
+"test7",
+"test8",
+"test9",
+];
+?>
+<?=$test['data']?>
+<? echo $test['data'];?>
+<?php echo $test['data'];?>
+<?php
+	foreach ($test as $value){
+		echo $value.PHP_EOL;
+	}
+?>
+<?php
+	foreach ($_SERVER as $key => $value){
+echo "$key; ";
+}
+?>
