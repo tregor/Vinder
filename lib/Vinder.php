@@ -1,6 +1,6 @@
 <?php
-session_start();
 
+namespace tregor;
 /**
  * Copyright (c)
  * by tregor 18.3.2019.
@@ -14,6 +14,9 @@ class Vinder
 
 	public function __construct($template, $data, $evalPHP = FALSE)
 	{
+		if (session_status() == PHP_SESSION_DISABLED) {
+			session_start();
+		}
 		$this->vinderData = [
 			"template" => $template,
 			"version"  => "1.0",

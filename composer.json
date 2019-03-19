@@ -1,0 +1,13 @@
+{
+  "name": "tregor/vinder",
+  "description": "Vinder is a free and lightweight template based engine for PHP!",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "tregor",
+	  "email": "tregor1997@gmail.com"
+	}
+  ],
+  "require": {}
+}
